@@ -1,75 +1,46 @@
-# Nuxt Minimal Starter
+# Ocean Professional Portfolio (Nuxt 3)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, minimalist portfolio with blue and amber accents. Responsive layout includes navigation, hero, projects grid, about/skills panels, and a contact form footer.
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+# or pnpm install / yarn install / bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Development
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Open http://localhost:3000
 
-Build the application for production:
+## Build
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Structure
+
+- `layouts/default.vue` — Navigation + footer with contact form
+- `pages/index.vue` — Landing page composing sections
+- `components/` — HeroSection, ProjectGrid, AboutSkills, ContactForm, LogoMark
+- `assets/css/main.css` — Ocean Professional theme tokens and utilities
+
+## Theming
+
+Colors are defined via CSS variables in `assets/css/main.css`:
+- Primary: `#2563EB`
+- Secondary: `#F59E0B`
+- Error: `#EF4444`
+- Background: `#f9fafb`
+- Surface: `#ffffff`
+- Text: `#111827`
+
+Gradients, rounded corners, and subtle shadows are applied throughout for a clean, professional aesthetic.
