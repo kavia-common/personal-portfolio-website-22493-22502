@@ -2,6 +2,9 @@
 
 A modern, minimalist portfolio with blue and amber accents. Responsive layout includes navigation, hero, projects grid, about/skills panels, and a contact form footer.
 
+- Tech: Nuxt 3, Vue 3, Vite
+- Theme: Ocean Professional (blue & amber accents, gradients, rounded corners, subtle shadows)
+
 ## Setup
 
 Install dependencies:
@@ -28,10 +31,17 @@ npm run preview
 
 ## Structure
 
-- `layouts/default.vue` — Navigation + footer with contact form
+- `layouts/default.vue` — Navigation + footer with contact form (mobile menu included)
 - `pages/index.vue` — Landing page composing sections
 - `components/` — HeroSection, ProjectGrid, AboutSkills, ContactForm, LogoMark
 - `assets/css/main.css` — Ocean Professional theme tokens and utilities
+- `public/favicon.svg` — App icon used by nuxt.config
+
+## Accessibility
+
+- Skip-to-content link
+- Focus-visible styles for interactive elements
+- Semantic headings and labels on form controls
 
 ## Theming
 

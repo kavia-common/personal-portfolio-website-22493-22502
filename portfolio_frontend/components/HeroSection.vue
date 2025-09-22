@@ -11,7 +11,7 @@
             <h1 style="font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin: 0 0 .5rem;">
               Hi, I’m <span style="color: var(--ocean-primary)">Alex</span> — building delightful web experiences.
             </h1>
-            <p style="color: var(--ocean-muted); margin: 0 0 1.25rem;">
+            <p style="color: var(--ocean-muted); margin: 0 0 1.25rem; max-width:65ch;">
               Frontend engineer focused on performance, accessibility, and elegant UI. I turn complex ideas into simple, beautiful, and responsive interfaces.
             </p>
             <div style="display:flex; gap: .75rem; flex-wrap: wrap;">

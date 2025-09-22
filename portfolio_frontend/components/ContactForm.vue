@@ -11,17 +11,17 @@
     <div class="grid cols-2">
       <div>
         <label for="name"><strong>Name</strong></label>
-        <input id="name" v-model="form.name" class="input" placeholder="Your name" required />
+        <input id="name" v-model="form.name" class="input" placeholder="Your name" required aria-required="true" autocomplete="name" />
       </div>
       <div>
         <label for="email"><strong>Email</strong></label>
-        <input id="email" v-model="form.email" class="input" type="email" placeholder="you@example.com" required />
+        <input id="email" v-model="form.email" class="input" type="email" placeholder="you@example.com" required aria-required="true" autocomplete="email" />
       </div>
     </div>
 
     <div>
       <label for="message"><strong>Message</strong></label>
-      <textarea id="message" v-model="form.message" class="textarea" placeholder="Tell me about your project..." required />
+      <textarea id="message" v-model="form.message" class="textarea" placeholder="Tell me about your project..." required aria-required="true" />
     </div>
 
     <div style="display:flex; gap:.75rem; align-items:center; flex-wrap: wrap;">
